@@ -61,9 +61,9 @@ const Page5 = () => {
         </div>
       </div>
 
-      <div className="h-auto px-[5vw] py-[5vw] bg-zinc-800 text-white">
+      <div className="h-auto px-[5vw] py-[2vw] bg-zinc-800 text-white">
         <div className="flex flex-col lg:flex-row justify-between">
-          <div className="flex gap-3 items-center">
+          <div className="h-[3vw] flex gap-3 items-center">
             <img
               className="w-[8vw] h-[8vw] lg:w-[3vw] lg:h-[3vw]"
               src="https://img.icons8.com/?size=100&id=EJd7fIRQdV6e&format=png&color=ffffff"
@@ -73,28 +73,28 @@ const Page5 = () => {
           </div>
 
           <div className="flex flex-col md:flex-row gap-[8%] mt-[5vw] lg:mt-0">
-            <div className="flex flex-col gap-2">
+            <div className="w-[8vw] flex flex-col gap-2">
               <h1 className="font-bold mb-[1vw]">Mobile app</h1>
               <Link className="text-zinc-300">Features</Link>
               <Link className="text-zinc-300">Live share</Link>
               <Link className="text-zinc-300">Video record</Link>
             </div>
 
-            <div className="flex flex-col gap-2">
+            <div className="w-[8vw] flex flex-col gap-2">
               <h1 className="font-bold mb-[1vw]">Community</h1>
               <Link className="text-zinc-300">Featured artist</Link>
               <Link className="text-zinc-300">Portal</Link>
               <Link className="text-zinc-300">Live events</Link>
             </div>
 
-            <div className="flex flex-col gap-2">
+            <div className="w-[8vw] flex flex-col gap-2">
               <h1 className="font-bold mb-[1vw]">Company</h1>
               <Link className="text-zinc-300">About us</Link>
               <Link className="text-zinc-300">Contact us</Link>
               <Link className="text-zinc-300">History</Link>
             </div>
 
-            <div className="flex flex-col gap-3 justify-center mt-[3vw] lg:mt-0">
+            <div className="w-[8vw] flex flex-col gap-3 justify-center mt-[3vw] lg:mt-0">
               <button className="px-4 py-2 text-white bg-blue-400 border border-blue-400 rounded-md hover:text-blue-400 hover:bg-white transition">
                 Register
               </button>
